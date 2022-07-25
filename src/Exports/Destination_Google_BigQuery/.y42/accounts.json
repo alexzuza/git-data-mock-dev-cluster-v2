@@ -1,0 +1,93 @@
+{
+  "accounts": [
+    {
+      "id": "analytics_249360367",
+      "name": "analytics_249360367"
+    },
+    {
+      "id": "clickup_okrs",
+      "name": "clickup_okrs"
+    },
+    {
+      "id": "cloud_billing",
+      "name": "cloud_billing"
+    },
+    {
+      "id": "cs_nps",
+      "name": "cs_nps"
+    },
+    {
+      "id": "datos_33680058_55e9_482c_8eb4_f61a7896aa3c",
+      "name": "datos_33680058_55e9_482c_8eb4_f61a7896aa3c"
+    },
+    {
+      "id": "datos_372bc72a_17b8_4c29_aa15_27840c46f118",
+      "name": "datos_372bc72a_17b8_4c29_aa15_27840c46f118"
+    },
+    {
+      "id": "datos_dev_backend",
+      "name": "datos_dev_backend"
+    },
+    {
+      "id": "datos_dev_frontend",
+      "name": "datos_dev_frontend"
+    },
+    {
+      "id": "datos_e70b6213_4956_4cdf_9667_ff772a60aac1",
+      "name": "datos_e70b6213_4956_4cdf_9667_ff772a60aac1"
+    },
+    {
+      "id": "datos_e70b6213_4956_4cdf_9667_ff772a60aac1_view",
+      "name": "datos_e70b6213_4956_4cdf_9667_ff772a60aac1_view"
+    },
+    {
+      "id": "datos_export_act",
+      "name": "datos_export_act"
+    },
+    {
+      "id": "datos_prod_backend",
+      "name": "datos_prod_backend"
+    },
+    {
+      "id": "datos_prod_frontend",
+      "name": "datos_prod_frontend"
+    },
+    {
+      "id": "datos_view_datos_e70b6213_4956_4cdf_9667_ff772a60aac1",
+      "name": "datos_view_datos_e70b6213_4956_4cdf_9667_ff772a60aac1"
+    },
+    {
+      "id": "datos_view_y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13",
+      "name": "datos_view_y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13"
+    },
+    {
+      "id": "gcp_billing",
+      "name": "gcp_billing"
+    },
+    {
+      "id": "hubspot",
+      "name": "hubspot"
+    },
+    {
+      "id": "salesforce",
+      "name": "salesforce"
+    },
+    {
+      "id": "views_datos_e70b6213_4956_4cdf_9667_ff772a60aac1",
+      "name": "views_datos_e70b6213_4956_4cdf_9667_ff772a60aac1"
+    },
+    {
+      "id": "views_y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13",
+      "name": "views_y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13"
+    },
+    {
+      "id": "y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13",
+      "name": "y42_b55cf856_8d6d_43b3_a0dd_05db959b1c13"
+    },
+    {
+      "id": "y42_prod_v2_backend",
+      "name": "y42_prod_v2_backend"
+    }
+  ],
+  "_signature": "ZzE2Bjz5o+n1Gncj4fjXETs35LyYQSBorSvNUGX5x/9aprkcl0NtQfBPJirDVSR6nRnGBh8cGvZLF4Fp4VRHDg=="
+}
