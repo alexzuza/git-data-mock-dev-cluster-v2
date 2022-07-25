@@ -76,5 +76,21 @@
     "previous_table_id": "220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832"
   },
   "created_at": "2022-07-25T08:44:19.559655+00:00",
-  "_signature": "nFxoAtKSCeRAe5Qltb4229VgVHsPYKT5g/tvpG48IG+30rsDj6qqh1EL+5V3ke5f5Sthq7sjP1RXlGlqnCvPBQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-25T12:31:06.939717+00:00",
+    "external_state": {
+      "bookmarks": {
+        "customers": {
+          "updated_at": "2022-07-23T16:44:56.000000Z"
+        }
+      },
+      "schema_hash": "48afa72e6b356476560b001a1e42f0cd"
+    },
+    "write_disposition": "APPEND",
+    "external_id": "42ce69a9-e47c-460b-a697-5c05b479d303",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-shopify/985f357f-52fa-4e8f-ad29-f56822cf9d4f",
+    "partial": false
+  },
+  "_signature": "hrKBXmIMjLXV7JLBrpC0Wss1ZP/MmhHfjbdMoqKwqZtBcijCQHUXBPzCBzmhK2SoGAXn26NMK2++yeuYQv1pAw=="
 }
