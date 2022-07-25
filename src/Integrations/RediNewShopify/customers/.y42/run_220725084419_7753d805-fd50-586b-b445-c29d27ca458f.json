@@ -1,6 +1,6 @@
 {
   "request_id": "220725084419_7753d805-fd50-586b-b445-c29d27ca458f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "b0c28dcf-bc00-4858-9377-afd516fbb4c6",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -88,9 +88,129 @@
       "schema_hash": "48afa72e6b356476560b001a1e42f0cd"
     },
     "write_disposition": "APPEND",
-    "external_id": "42ce69a9-e47c-460b-a697-5c05b479d303",
+    "external_id": "6997579e-abb0-41ca-870b-2445b7518705",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-shopify/985f357f-52fa-4e8f-ad29-f56822cf9d4f",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-25T12:32:19.185925+00:00",
+    "row_count": 341007,
+    "current_import_row_count": 340533,
+    "size_in_bytes": 365737631,
+    "previous_id": "220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832",
+    "columns": [
+      {
+        "field_name": "last_order_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "multipass_identifier",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "default_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "orders_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "verified_email",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "total_spent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_order_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "first_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "note",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "addresses",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tax_exempt",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "accepts_marketing",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832&page=table"
   },
-  "_signature": "hrKBXmIMjLXV7JLBrpC0Wss1ZP/MmhHfjbdMoqKwqZtBcijCQHUXBPzCBzmhK2SoGAXn26NMK2++yeuYQv1pAw=="
+  "finished_at": "2022-07-25T12:32:19.186081+00:00",
+  "_signature": "+m02/8mrCk3sw7c7kZWqQBs9zUjwhXyjSIvTCuodHJap329/fh1n28VOSUtrSGbuiMUgHWNsMrlz6TdIUxKSCA=="
 }
