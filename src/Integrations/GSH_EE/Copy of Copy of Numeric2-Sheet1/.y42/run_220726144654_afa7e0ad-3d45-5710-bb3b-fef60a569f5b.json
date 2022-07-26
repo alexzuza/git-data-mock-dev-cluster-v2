@@ -42,5 +42,13 @@
     }
   },
   "created_at": "2022-07-26T14:46:54.828682+00:00",
-  "_signature": "7d6RgLp5+CncvrMiFwCTWZ8wlvBGAb0dS8xGN7RyZ5bZ840L7yekOb1+XG+7T/tRD7Bz68+GH6CDAL/6CxbIDg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-26T14:47:07.313852+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "2086bd33-c59f-4131-a34e-1e492947dc9e",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/singer-google-sheets/f4f6ca22-dafc-42ed-9e26-6258e782052d",
+    "partial": false
+  },
+  "_signature": "t9LDfpS1+G0X4Ou7Bo6MM+pyoziejnhhPsg0p5bx9Kw0QAXWd7ermLQsmDpGJWWbqCj8uhwUc/Gp26meRfGhBg=="
 }
