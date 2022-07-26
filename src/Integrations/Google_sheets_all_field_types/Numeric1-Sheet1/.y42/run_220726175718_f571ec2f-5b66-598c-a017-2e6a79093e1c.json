@@ -1,0 +1,46 @@
+{
+  "request_id": "220726175718_f571ec2f-5b66-598c-a017-2e6a79093e1c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "3392ccdd-5e88-4c9b-b6bd-9a97da9556f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-26T17:57:18.378540+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_sheets_all_field_types/Numeric1-Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "1b464b9f0fea132bb8d462c593c3c728b2ad0f48"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-26T17:57:18.378540+00:00",
+  "_signature": "2ATYm3yFghfJZZ0nPSwmgIPcfwC2JdIa/nh/Tq9932KKLgDwQdDk2OCpDMOmqeDVD429kI+k5LX3cXu4jP1ZCw=="
+}
