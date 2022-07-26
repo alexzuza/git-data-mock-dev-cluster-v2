@@ -6,6 +6,18 @@
     {
       "from": "9501414d-51a5-464c-a807-4727a0720006",
       "to": "9501414d-51a5-464c-a807-4727a0720007"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720008",
+      "to": "9501414d-51a5-464c-a807-4727a0720009"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720007",
+      "to": "9501414d-51a5-464c-a807-4727a0720010"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720009",
+      "to": "9501414d-51a5-464c-a807-4727a0720010"
     }
   ],
   "nodeDataArray": [
@@ -38,6 +50,15 @@
     },
     {
       "key": "9501414d-51a5-464c-a807-4727a0720009",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "-472.8571428571431 -265.7142857142857",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720010",
       "path": "src/Integrations/MySql_Integration/test_view",
       "location": "-472.8571428571431 -265.7142857142857",
       "onFailure": "stop",
