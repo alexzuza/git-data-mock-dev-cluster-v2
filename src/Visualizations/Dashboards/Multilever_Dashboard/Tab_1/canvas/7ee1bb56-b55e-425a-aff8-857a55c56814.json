@@ -1,0 +1,38 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-canvas-element.json",
+  "type": "Comment",
+  "position": {
+    "x": 1189.1422119140625,
+    "y": 317.6026611328125
+  },
+  "size": {
+    "width": 28,
+    "height": 32
+  },
+  "zIndex": 0,
+  "layer": "commentPins",
+  "angle": 0,
+  "typeSettings": {
+    "chatId": "20c91723-bfa6-4932-b122-6ce419d838a4",
+    "attachedTo": "",
+    "allowedTypes": [
+      "Widget"
+    ],
+    "position": "bottom-right"
+  },
+  "styles": {
+    "background-color": "none",
+    "border-color": "none",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}
