@@ -24,7 +24,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720006",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "-460.0000000000001 -68.57142857142861",
+      "location": "-864.2857142857147 -277.42857142857156",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
@@ -33,7 +33,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720007",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "37.14285714285734 -68.57142857142861",
+      "location": "-431.4285714285717 -277.42857142857156",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
@@ -42,7 +42,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720008",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "-472.8571428571431 -164.28571428571433",
+      "location": "-864.2857142857146 -418.0000000000001",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
@@ -51,7 +51,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720009",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "-472.8571428571431 -265.7142857142857",
+      "location": "-431.4285714285717 -418.0000000000001",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
@@ -60,7 +60,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720010",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "-472.8571428571431 -265.7142857142857",
+      "location": "102.85714285714243 -277.42857142857156",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
