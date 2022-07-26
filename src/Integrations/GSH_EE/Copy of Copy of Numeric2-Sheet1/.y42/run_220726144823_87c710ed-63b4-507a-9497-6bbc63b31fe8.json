@@ -1,0 +1,46 @@
+{
+  "request_id": "220726144823_87c710ed-63b4-507a-9497-6bbc63b31fe8",
+  "status": "pending",
+  "request": {
+    "source_credentials": "cedda99c-0009-4ec4-8a75-dc2738bf09dc",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "1-i4C4EYp9JybFumI8r1Yhif57JLxjpod93rGdog83GY/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-26T14:48:23.232306+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/GSH_EE/Copy of Copy of Numeric2-Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "293d02ae13a11603feca8c4a2e7d304a90c931ee"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-26T14:48:23.232306+00:00",
+  "_signature": "SVVbu6AJpX0SVI2VIw2UYcG3nL56BfS1qe1PYDpfXQlPmNqanng6J325z4sU+Mt1r5d0IvhE7s5VYP6o2PE/BQ=="
+}
