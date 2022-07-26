@@ -1,8 +1,10 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+  "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/file-upload/0.0.0/table.json",
   "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdvvpiWOF6hCJ38dJmLU1I6KboZ2RoNJTHZY9SEOhPpXRU1UWMCIR1o9NKy-LK22EL0ue7w0UCupU69CmSGJgvKMPQ",
   "originalName": "Numeric_e.xlsx",
   "size": "5535",
-  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/fd11906c-4e50-47ee-8994-dc91abad7a94"
+  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/fd11906c-4e50-47ee-8994-dc91abad7a94",
+  "identifier": "Sheet1",
+  "_signature": "fw+Yi443KmsGk1VYD2xJ5VDh/iSyosa+rZMD5zQJ6J+5ms9MZAcKMO3uqz4hSBSMxTlIS/j87E+tz8x0Nle9Cg=="
 }
