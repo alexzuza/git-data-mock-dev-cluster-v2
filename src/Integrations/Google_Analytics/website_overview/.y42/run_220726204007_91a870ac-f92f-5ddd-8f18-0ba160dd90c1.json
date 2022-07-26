@@ -9,7 +9,7 @@
     "current_import_row_count": 3,
     "size_in_bytes": 3256,
     "previous_id": "8b930c3e-001b-5b0a-974c-d63e795ecefe",
-    "external_id": "6525fb32-2c29-4fc0-b2e6-7afd7ab4723f",
+    "external_id": "ca5ef42c-0716-4ce9-be61-4d5765a78634",
     "columns": [
       {
         "field_name": "ga_date",
@@ -68,7 +68,15 @@
       }
     ],
     "table_name": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table",
+    "export_finished_at": "2022-07-26T20:40:44.347680+00:00",
+    "external_state": {
+      "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
+      "website_overview": "2022-07-24"
+    },
+    "write_disposition": "APPEND",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-analytics/b00af6c1-ab54-4f40-82f0-8f7f908c13da",
+    "partial": false
   },
   "request": {
     "source_credentials": "6be42358-1f9a-40c0-bb00-1bbd2d94a657",
@@ -127,5 +135,5 @@
     "previous_table_id": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031"
   },
   "created_at": "2022-07-26T20:40:07.214214+00:00",
-  "_signature": "NQFEyEdEnL1T6knKYOy0BS+Tw263PZ14IYRnkvdFwZDYFBM5HZ/e0nsDUb3Jjiq9TJ0VWAW+BECxwNZtKDIIDQ=="
+  "_signature": "xW0NoZsofeu9yDzvh9KiYF4WhpXCXOJGAIPq8gvxGBw90lHroaYqmJAqcYEcXB32NF6VgXpJ63E/StpF3OQoCw=="
 }
