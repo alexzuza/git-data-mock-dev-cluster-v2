@@ -1,0 +1,43 @@
+{
+  "request_id": "220725093408_cfda9d0a-b2f1-5a4b-bdab-2aa8bf113c6f",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
+      "datasource_table": "src/Models/UI/onbuy_ui/onbuy_ui"
+    },
+    "import_table": "220720150256_1729fce2-05c2-55a8-b7b0-49f6594bdc35",
+    "created_at": "2022-07-25T09:34:08.469941+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/onbuy_export/onbuy_ui___onbuy_ui__v_2",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "5788b4e4ae44d559a338de5ea4cde9b29104be18"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-25T09:34:08.469941+00:00",
+  "finished_at": "2022-07-25T09:35:14.347812+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/gs%3A//y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220725093408_cfda9d0a-b2f1-5a4b-bdab-2aa8bf113c6f.csv?Expires=1661420114&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=V5Qo0Bdi8aqcEgWgPba%2FTc4Y5RRgk5%2FJ3N703zHv9orB786YXpPTahFHGflaQNn6X49h4JHcuBG%2F0of1RlXqc1fU71kDsTOELETYwxNBAN3RAkuguO0hDf5tdxsVO%2FsS%2FXYblAiKCCKdYEcTYWOmZqPR%2FvRztUgnc3%2BSg2fgKtj4wqdLF5DKXzdpAlP1oGwDSZLIRLW%2Bs5kiRWzjYT1mNLiMyjh0UFglxyICo4sRJ1SMoiOr%2BlBOVFtPnEKrSDkc7Usug9PGMtwn9TK87CZbjM31fpe9YfwPocsPDvWXjPl%2FXZjJtcphpx6GcK8atROrkk4NZwcPNUflQ7ykT3Hgeg%3D%3D"
+  },
+  "_signature": "YRuU8VTPipgeySy8YVl66iTNR++eDGacMWoCasrmlqPKGxCjJMG84KRxZgTq3R8mTUQyIYlh4KwKN/9sahnhDg=="
+}
