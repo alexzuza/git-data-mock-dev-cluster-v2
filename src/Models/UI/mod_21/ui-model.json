@@ -565,7 +565,29 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "59.17135501527957 77.11897232912992"
+      "location": "-67.82864498472043 168.11897232912992"
+    },
+    {
+      "key": "f107ea74-68bf-49aa-ac9b-eca40f54c967",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "210 81",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "6660788a-414d-4e13-a4ec-be4a6a25dd28",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "294 204",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [
