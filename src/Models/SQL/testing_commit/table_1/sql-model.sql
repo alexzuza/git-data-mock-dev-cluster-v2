@@ -1,1 +1,2 @@
-SELECT * FROM {{ ref('src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1') }}
+SELECT device_id
+FROM {{ ref('src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1') }}
