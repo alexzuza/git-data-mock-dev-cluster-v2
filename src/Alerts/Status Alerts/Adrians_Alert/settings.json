@@ -6,22 +6,23 @@
     "failure"
   ],
   "triggered_by": [
+    "user",
     "orchestration"
   ],
   "title": "",
   "message_body": "<p>Message</p>",
   "patterns": [
-    "Google_sheets_all_field_types",
-    "Google_Analytics",
     "123_123",
+    "Google_Analytics",
+    "Google_sheets_all_field_types",
     "MySql_Integration",
     "My_SQL_integration",
     "ads",
     "ddd",
     "egi_test",
     "facebook_pages",
-    "instagram",
     "failing_test",
+    "instagram",
     "new",
     "onbuy_gsheet"
   ],
