@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#xlsx",
+  "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdvnUthOCt44bkTVaVm2zjZtJELf0N0hBBZpWNmScL73PGShcR3qod3izzHwincXoexojd9FUTkZOCoxWDlcTNMk5Q",
+  "originalName": "Numeric_e.xlsx",
+  "size": "5535",
+  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/c48b8183-736c-4033-98d2-40755e2019d5"
+}
