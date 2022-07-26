@@ -1,6 +1,6 @@
 {
   "request_id": "220726125401_a82de997-73c3-574b-9cce-733785f68f2b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -36,5 +36,33 @@
     }
   },
   "created_at": "2022-07-26T12:54:01.346256+00:00",
-  "_signature": "yK5sZ990Y7p9XGp15FkAteFE0qC2YZjOk1HX7YSkXfdDnesS8aIGDagUYgAVXkcrV+LkHAyDeyFVJcaO1aVXDg=="
+  "finished_at": "2022-07-26T12:54:22.255976+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-26T12:54:22.255838+00:00",
+    "row_count": 5000,
+    "current_import_row_count": 5000,
+    "size_in_bytes": 2359000,
+    "external_id": "a6cf09e9-35bc-41b8-aa66-fd5791020873",
+    "columns": [
+      {
+        "field_name": "device_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "shipping_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "discount_applications",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220726125401_a82de997-73c3-574b-9cce-733785f68f2b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220726125401_a82de997-73c3-574b-9cce-733785f68f2b&page=table"
+  },
+  "_signature": "CTQa1a/YfDRjSgclplIa00sAjMd0RiebRlRO+8p8sTE0r4Ztk/CgGoVnWn5PGRzlB8OqQkRUebVIMZdvVRfbDA=="
 }
