@@ -282,6 +282,17 @@
       "isGroup": true,
       "group": "",
       "location": "112.62712688381146 -253.21505583365422"
+    },
+    {
+      "key": "53b3fcc8-0d6b-41c2-b179-71cb43d573b2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "677 -47",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [

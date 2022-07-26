@@ -2,6 +2,6 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/visualization/visualization-theme-settings.json",
   "theme": {
     "type": "BuiltIn",
-    "themeName": "dark"
+    "themeName": "roma"
   }
 }

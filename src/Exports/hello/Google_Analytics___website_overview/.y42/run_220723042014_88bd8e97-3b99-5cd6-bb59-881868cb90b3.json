@@ -1,0 +1,43 @@
+{
+  "request_id": "220723042014_88bd8e97-3b99-5cd6-bb59-881868cb90b3",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "created_at": "2022-07-23T04:20:14.490448+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "d924cb7d66f7aa2e0ca1cc6e1d13f5eb017839f2"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_781afce8-9b3f-466e-9700-842d290b542c.json",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-23T04:20:14.490448+00:00",
+  "finished_at": "2022-07-23T04:20:32.946383+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220723042014_88bd8e97-3b99-5cd6-bb59-881868cb90b3.xlsx?Expires=1661228432&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=P%2BMoJobRluAWN0FTeWQguuamIx9svM9jlbszToW7xaT%2BCVCjPgo8ntnzyifJanOlacPLXL5WKlgaRWtZLiy9yLyhWIDkrVzFLRUgFLrr0gV81uBkdKUZXdx9acCOJIhFvOxeq%2Fk6LZbv6o%2Bdf6G0AgxayAD8DFtv%2B7xbfA%2F%2FFpjQ7MJzrcB7k8fNpoPaDKm6CjfhyKRec8yx5z75Hu9cp4Ky0kfYEAfN5We%2FzQp3B5PCwBtuzMRz6HzKAGwKddM6pe1gK%2BZDOR2j%2F%2FxbOal3z7kicNQhR6UJpITjCB565Th6cdUyTvFknVT9Q3zgTWFUW8Y20raF9UkEWVtFkQHL0g%3D%3D"
+  },
+  "_signature": "JUx+9VIaPiLqw+fdnSkNuLfvRlOJt8E5pKcKkeXXN8CHvakaIW6U7Y5v7we3Y9v7VURwFkaPReiQMa2ulwsCAw=="
+}
