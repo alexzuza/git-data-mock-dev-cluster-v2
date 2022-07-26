@@ -1,0 +1,42 @@
+{
+  "request_id": "220726143602_8ca683c4-1cc5-5ec0-bbfd-3c1eb0f34324",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdvvpiWOF6hCJ38dJmLU1I6KboZ2RoNJTHZY9SEOhPpXRU1UWMCIR1o9NKy-LK22EL0ue7w0UCupU69CmSGJgvKMPQ",
+      "originalName": "Numeric_e.xlsx",
+      "size": "5535",
+      "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/fd11906c-4e50-47ee-8994-dc91abad7a94"
+    },
+    "created_at": "2022-07-26T14:36:02.270286+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/NUM_CSV/Numeric_e.xlsx",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "3e804ba5e45fba4c5989bdd847bd061e2f9dee2f"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-26T14:36:02.270286+00:00",
+  "_signature": "TnI/LrSoDbzMn4WtFzKP1w9/qI4Ko1RNc3yZ8CFqElnlPafl/RvBZiDK5CSw+PaE9TT089uAtYNR/Yz1S4zYCw=="
+}
