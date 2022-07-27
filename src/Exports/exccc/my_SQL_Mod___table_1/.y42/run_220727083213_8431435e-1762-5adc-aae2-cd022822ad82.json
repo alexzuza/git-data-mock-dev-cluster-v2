@@ -1,0 +1,43 @@
+{
+  "request_id": "220727083213_8431435e-1762-5adc-aae2-cd022822ad82",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Models/SQL/my_SQL_Mod/table_1"
+    },
+    "import_table": "220726142345_fc9dd5a4-95f2-56e0-a42d-a166e79ba3ab",
+    "created_at": "2022-07-27T08:32:13.788277+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/exccc/my_SQL_Mod___table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "25848b3ca043d8165adde312d49897bb1f7327ee"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-27T08:32:13.788277+00:00",
+  "finished_at": "2022-07-27T08:32:26.774541+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220727083213_8431435e-1762-5adc-aae2-cd022822ad82.xlsx?Expires=1661589146&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=y88O1UDGh3gAza3NJbDxjRgjkB6l5vXGF4vE96UuKs%2FNyQAlSqyWJumeonsH0X61dR2Pt8R%2BmNTxGnh1ha50iVitlLwE0a8Yo4qSWFgOQHu18yms8KiGwUJRMYr00k3p9rX6SIvxbJBih%2BDvjFDTGrylzhNsqyu%2FpUf7JtK3FyuDarGfF%2Fs25mOVpBC1xJDWqNoz1q6%2BnvJSdbwEgvGdWT0p5RzYbNJaWv2za6xCyS1dfFq13yUj718gOTARQRLvJjqculIaj4iJFjZoLzhIQ9aPJqJ8HqD5xpNlZF5D6NhR1ULgnOw040deCUM%2BDvUKYvtVnm9ZtVxxrcWcD%2FbVaQ%3D%3D"
+  },
+  "_signature": "l70XzooAALg4jO8FHhWS8SsFE+EcXKuDU9RbQBn3D7fjfyco3w+FkKasbIT6kd0ramhkZ/3jKaYX1w0bXpsYDw=="
+}
