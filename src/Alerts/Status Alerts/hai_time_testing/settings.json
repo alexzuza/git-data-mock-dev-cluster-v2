@@ -17,6 +17,13 @@
   "tags": [],
   "destinations": [
     {
+      "type": "internal_notification",
+      "user_ids": [
+        "hd@y42.com"
+      ],
+      "team_ids": []
+    },
+    {
       "type": "email",
       "custom_emails": [],
       "user_ids": [
