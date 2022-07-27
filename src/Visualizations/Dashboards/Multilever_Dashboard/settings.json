@@ -5,5 +5,5 @@
     "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1",
     "src/Visualizations/Dashboards/Multilever_Dashboard/Testing_2"
   ],
-  "last_used_datasource_table_path": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1"
+  "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_pk"
 }
