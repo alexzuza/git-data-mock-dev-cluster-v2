@@ -1,19 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1634.1668701171875,
-    "y": 959.1812778130648
+    "x": 141,
+    "y": 190
   },
   "size": {
-    "height": 906.3285984930794,
-    "width": 1101.75634765625
+    "height": 403.80521630219914,
+    "width": 469.98104469811176
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/Revenue_Split_by_Item"
+    "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
   },
   "styles": {
     "background-color": "#000000",

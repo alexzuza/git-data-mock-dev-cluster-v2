@@ -12,7 +12,7 @@
     "subtitleColor": "#aaa",
     "textColorShow": false,
     "textColor": "#333",
-    "markTextColor": "#eee",
+    "markTextColor": "#cfcfcf",
     "color": [
       "#e01f54",
       "#001852",
@@ -35,13 +35,13 @@
       "#d5b158",
       "#38b6b6"
     ],
-    "borderColor": "#ccc",
+    "borderColor": "#e3e3e3",
     "borderWidth": 0,
     "visualMapColor": [
       "#e01f54",
       "#e7dbc3"
     ],
-    "legendTextColor": "#333333",
+    "legendTextColor": "#cfcfcf",
     "kColor": "#e01f54",
     "kColor0": "#001852",
     "kBorderColor": "#f5e8c8",
@@ -88,11 +88,11 @@
         "type": "category",
         "name": "类目坐标轴",
         "axisLineShow": true,
-        "axisLineColor": "#333",
+        "axisLineColor": "#b8b8b8",
         "axisTickShow": true,
-        "axisTickColor": "#333",
+        "axisTickColor": "#e3e3e3",
         "axisLabelShow": true,
-        "axisLabelColor": "#333",
+        "axisLabelColor": "#e3e3e3",
         "splitLineShow": false,
         "splitLineColor": [
           "#ccc"
@@ -113,10 +113,10 @@
         "axisTickShow": false,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#333",
+        "axisLabelColor": "#ebebeb",
         "splitLineShow": true,
         "splitLineColor": [
-          "#ccc"
+          "#b3b3b3"
         ],
         "splitAreaShow": false,
         "splitAreaColor": [
@@ -134,10 +134,10 @@
         "axisTickShow": false,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#333",
+        "axisLabelColor": "#d4d4d4",
         "splitLineShow": true,
         "splitLineColor": [
-          "#ccc"
+          "#dedede"
         ],
         "splitAreaShow": false,
         "splitAreaColor": [
@@ -155,7 +155,7 @@
         "axisTickShow": true,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#333",
+        "axisLabelColor": "#e0e0e0",
         "splitLineShow": false,
         "splitLineColor": [
           "#ccc"
