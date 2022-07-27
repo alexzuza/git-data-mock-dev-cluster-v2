@@ -1,0 +1,22 @@
+{
+  "request_id": "220727090007_9799f40f-196d-597a-8a46-fc01f925918c",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-27T09:03:33.017240+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-test_view": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "e4e20d511f3ec9d9672b3ebdc8f4a51e"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "6881b198-24b9-4b65-b30a-93d69aef5d07",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/63f1a12c-e343-44b1-81f6-9e4f737553a7",
+    "partial": false
+  },
+  "_signature": "4O1bbEkn7vgbl9/yRq5UrJf6otbF2o//ngb1eVcZMT1EOMce7QNTyzYxoSd/m/aj5uq+G7tmE8rr6qHdex7YCg=="
+}
