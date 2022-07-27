@@ -288,7 +288,18 @@
       "isSidebarType": true,
       "version": 1,
       "category": "pinNode",
-      "location": "677 -47",
+      "location": "134 -395",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "b832de5d-36d1-493b-9205-5451e6e1b7f1",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "330.4401357498963 -563.3093652744295",
       "layerName": "",
       "zOrder": {
         "class": "NaN"
