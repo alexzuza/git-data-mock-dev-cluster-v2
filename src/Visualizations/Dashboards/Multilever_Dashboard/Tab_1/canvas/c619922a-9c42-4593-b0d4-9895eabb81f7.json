@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
   },
   "styles": {
-    "background-color": "#000000",
-    "border-color": "#000000",
+    "background-color": "#ffffff00",
+    "border-color": "#00000000",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",
