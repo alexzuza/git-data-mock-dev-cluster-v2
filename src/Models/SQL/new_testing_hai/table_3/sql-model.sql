@@ -1,6 +1,7 @@
 Select 
   name,
   period,
+  period as period1,
   value,
   context,
   end_time,
