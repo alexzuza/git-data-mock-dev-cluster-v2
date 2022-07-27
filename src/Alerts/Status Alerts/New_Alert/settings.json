@@ -23,10 +23,10 @@
     {
       "type": "email",
       "custom_emails": [],
-      "team_ids": [],
       "user_ids": [
         "ben.woodley@y42.com"
-      ]
+      ],
+      "team_ids": []
     }
   ]
 }
