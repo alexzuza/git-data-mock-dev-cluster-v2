@@ -1,0 +1,39 @@
+{
+  "request_id": "220727101709_b5337365-381a-53c2-948d-52bdc4d40a42",
+  "status": "pending",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1"
+    },
+    "import_table": "220726173935_f44eabec-3fa5-5e91-84f0-11d2c4ced52b",
+    "created_at": "2022-07-27T10:17:09.829100+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/onbuy_export/Google_sheets_all_field_types___Copy_of_Numeric2_Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "104f4308d11dbd8d5d6f24ab79cb0faea7348980"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "112",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-27T10:17:09.829100+00:00",
+  "_signature": "RwCeu52CMAOLDXT9EZQ2tJPOdcZCtyZA5XLEhp+Xfo3Af7AMyPblWjPDIYVyL4PBvsY9vIsLzT7aUD/TUjyQBg=="
+}
