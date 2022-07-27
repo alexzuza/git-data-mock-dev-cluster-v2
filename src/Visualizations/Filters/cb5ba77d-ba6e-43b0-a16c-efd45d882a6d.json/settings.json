@@ -8,7 +8,7 @@
     {
       "operator": "=",
       "values": [
-        false
+        true
       ],
       "operator_type": "absolute",
       "value_type": "NONE"

@@ -1,23 +1,23 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 453.80316346747645,
-    "y": 1951.7801708689515
+    "x": 141,
+    "y": 190
   },
   "size": {
-    "height": 637.0545135540772,
-    "width": 2277.080810546875
+    "height": 403.80521630219914,
+    "width": 469.98104469811176
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/COGS___Profit_by_Country"
+    "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
   },
   "styles": {
-    "background-color": "#00000000",
-    "border-color": "#00000000",
+    "background-color": "#000000",
+    "border-color": "#000000",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

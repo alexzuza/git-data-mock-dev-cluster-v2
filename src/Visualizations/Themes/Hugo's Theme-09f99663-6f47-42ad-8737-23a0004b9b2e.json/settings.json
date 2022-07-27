@@ -1,18 +1,17 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/visualization/visualization-theme-settings.json",
   "theme": {
-    "type": "BuiltIn",
-    "themeName": "roma",
+    "themeName": "Hugo's Theme",
     "seriesCnt": 4,
     "backgroundColor": "#ffffff",
     "frameBackgroundColor": "#fafafa",
-    "frameBorderColor": "#8088ff",
+    "frameBorderColor": "#687afd",
     "frameBorderWidth": 2,
     "titleColor": "#333333",
     "subtitleColor": "#aaa",
     "textColorShow": false,
     "textColor": "#333",
-    "markTextColor": "#cfcfcf",
+    "markTextColor": "#eee",
     "color": [
       "#e01f54",
       "#001852",
@@ -35,13 +34,13 @@
       "#d5b158",
       "#38b6b6"
     ],
-    "borderColor": "#e3e3e3",
+    "borderColor": "#ffffff",
     "borderWidth": 0,
     "visualMapColor": [
       "#e01f54",
       "#e7dbc3"
     ],
-    "legendTextColor": "#cfcfcf",
+    "legendTextColor": "#333333",
     "kColor": "#e01f54",
     "kColor0": "#001852",
     "kBorderColor": "#f5e8c8",
@@ -88,11 +87,11 @@
         "type": "category",
         "name": "类目坐标轴",
         "axisLineShow": true,
-        "axisLineColor": "#b8b8b8",
+        "axisLineColor": "#333",
         "axisTickShow": true,
-        "axisTickColor": "#e3e3e3",
+        "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#e3e3e3",
+        "axisLabelColor": "#333",
         "splitLineShow": false,
         "splitLineColor": [
           "#ccc"
@@ -113,10 +112,10 @@
         "axisTickShow": false,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#ebebeb",
+        "axisLabelColor": "#333",
         "splitLineShow": true,
         "splitLineColor": [
-          "#b3b3b3"
+          "#ccc"
         ],
         "splitAreaShow": false,
         "splitAreaColor": [
@@ -134,10 +133,10 @@
         "axisTickShow": false,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#d4d4d4",
+        "axisLabelColor": "#333",
         "splitLineShow": true,
         "splitLineColor": [
-          "#dedede"
+          "#ccc"
         ],
         "splitAreaShow": false,
         "splitAreaColor": [
@@ -155,7 +154,7 @@
         "axisTickShow": true,
         "axisTickColor": "#333",
         "axisLabelShow": true,
-        "axisLabelColor": "#e0e0e0",
+        "axisLabelColor": "#333",
         "splitLineShow": false,
         "splitLineColor": [
           "#ccc"
@@ -196,6 +195,7 @@
     "agGridForegroundColor": "#333333",
     "agGridBackgroundColor": "#ffffff",
     "cohortPrimaryColor": "#62BE7B",
-    "cohortSecoundaryColor": "#F8696B"
+    "cohortSecoundaryColor": "#F8696B",
+    "type": "Custom"
   }
 }
