@@ -2,7 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
   "feature_type": "UI-Model",
   "alert_on": [
-    "success"
+    "success",
+    "failure"
   ],
   "triggered_by": [
     "orchestration"
