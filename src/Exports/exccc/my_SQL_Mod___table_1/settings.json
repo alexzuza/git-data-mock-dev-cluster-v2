@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+  "datasource_table": "src/Models/SQL/my_SQL_Mod/table_1"
+}

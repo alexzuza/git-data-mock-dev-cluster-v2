@@ -1,17 +1,69 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0 0/1 1/1 * *",
   "forceSchedule": false,
-  "linkDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720006",
+      "to": "9501414d-51a5-464c-a807-4727a0720007"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720008",
+      "to": "9501414d-51a5-464c-a807-4727a0720009"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720007",
+      "to": "9501414d-51a5-464c-a807-4727a0720010"
+    },
+    {
+      "from": "9501414d-51a5-464c-a807-4727a0720009",
+      "to": "9501414d-51a5-464c-a807-4727a0720010"
+    }
+  ],
   "nodeDataArray": [
     {
       "key": "9501414d-51a5-464c-a807-4727a0720006",
       "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "0 0",
+      "location": "-864.2857142857147 -277.42857142857156",
       "onFailure": "stop",
       "nodeConfig": {
-        "incremental": true,
-        "globalCustomerId": "DenysPishchenko-MySql_Integration"
+        "incremental": true
+      }
+    },
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720007",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "-431.4285714285717 -277.42857142857156",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720008",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "-864.2857142857146 -418.0000000000001",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720009",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "-431.4285714285717 -418.0000000000001",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720010",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "102.85714285714243 -277.42857142857156",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
       }
     }
   ],

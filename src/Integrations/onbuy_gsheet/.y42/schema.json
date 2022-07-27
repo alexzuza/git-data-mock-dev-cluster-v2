@@ -1,10 +1,10 @@
 {
   "streams": [
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Product Glossary & Teams Mapping",
-      "table_name": "Product & Engineering Org-Product Glossary & Teams Mapping",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Glossary & Teams Mapping",
+      "group": "Product pages",
+      "stream": "Product pages-Product Feature Map",
+      "table_name": "Product pages-Product Feature Map",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Product Feature Map",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -16,10 +16,10 @@
       }
     },
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Engineering Teams",
-      "table_name": "Product & Engineering Org-Engineering Teams",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Engineering Teams",
+      "group": "Product pages",
+      "stream": "Product pages-Sheet1",
+      "table_name": "Product pages-Sheet1",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Sheet1",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -31,10 +31,10 @@
       }
     },
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Product Teams",
-      "table_name": "Product & Engineering Org-Product Teams",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Teams",
+      "group": "Product pages",
+      "stream": "Product pages-Collaboration",
+      "table_name": "Product pages-Collaboration",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Collaboration",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -46,10 +46,10 @@
       }
     },
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Tool Access",
-      "table_name": "Product & Engineering Org-Tool Access",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Tool Access",
+      "group": "Product pages",
+      "stream": "Product pages-Infrastructure",
+      "table_name": "Product pages-Infrastructure",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Infrastructure",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -61,10 +61,10 @@
       }
     },
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
-      "table_name": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Additional Helpful Slack & Email Channels",
+      "group": "Product pages",
+      "stream": "Product pages-Integrations",
+      "table_name": "Product pages-Integrations",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Integrations",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -76,10 +76,100 @@
       }
     },
     {
-      "group": "Product & Engineering Org",
-      "stream": "Product & Engineering Org-Hiring Plan",
-      "table_name": "Product & Engineering Org-Hiring Plan",
-      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Hiring Plan",
+      "group": "Product pages",
+      "stream": "Product pages-Low Code Model",
+      "table_name": "Product pages-Low Code Model",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Low Code Model",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product pages",
+      "stream": "Product pages-SQL-Model",
+      "table_name": "Product pages-SQL-Model",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/SQL-Model",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product pages",
+      "stream": "Product pages-Visualization",
+      "table_name": "Product pages-Visualization",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Visualization",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product pages",
+      "stream": "Product pages-Pipeline Orchestration",
+      "table_name": "Product pages-Pipeline Orchestration",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Pipeline Orchestration",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product pages",
+      "stream": "Product pages-Export",
+      "table_name": "Product pages-Export",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Export",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product pages",
+      "stream": "Product pages-Governance",
+      "table_name": "Product pages-Governance",
+      "tap_stream_id": "1QE8qQeuYEzlRt0nWZhTI42l2OsmmdWVZ4KbHQyHCEuM/Governance",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Summer Party 05.08.2022",
+      "stream": "Summer Party 05.08.2022-Sheet1",
+      "table_name": "Summer Party 05.08.2022-Sheet1",
+      "tap_stream_id": "1J104hWnCrXQDtsguuzQBamohScLh8C3uRvHCAlts2fQ/Sheet1",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -1156,6 +1246,126 @@
       }
     },
     {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Product Glossary & Teams Mapping",
+      "table_name": "Product & Engineering Org-Product Glossary & Teams Mapping",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Glossary & Teams Mapping",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Engineering Teams",
+      "table_name": "Product & Engineering Org-Engineering Teams",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Engineering Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Product Teams",
+      "table_name": "Product & Engineering Org-Product Teams",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Tool Access",
+      "table_name": "Product & Engineering Org-Tool Access",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Tool Access",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
+      "table_name": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Additional Helpful Slack & Email Channels",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Hiring Plan",
+      "table_name": "Product & Engineering Org-Hiring Plan",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Hiring Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Customers_1",
+      "table_name": "test_data-Customers_1",
+      "tap_stream_id": "1LythHPQUlfSwsFKDWmfLVwYM5N9F-84DyOUcoXlW0oY/Customers_1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "onbuy_data_export",
+      "stream": "onbuy_data_export-Sheet1",
+      "table_name": "onbuy_data_export-Sheet1",
+      "tap_stream_id": "1FkJtQw-tgKNzUUzH6Scm0KHop39ncv3azO1iP_Tbv-Q/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
       "group": "Product & Engineering Org (Deprecated)",
       "stream": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
       "table_name": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
@@ -2030,21 +2240,6 @@
       "stream": "Widget Builder - Widget Functionality Comparison-Label Index Match",
       "table_name": "Widget Builder - Widget Functionality Comparison-Label Index Match",
       "tap_stream_id": "13KFQ3SgxoXrkWqo0mvIe9BLSP_b-f2lmbJjSkl2rWHw/Label Index Match",
-      "schema": {
-        "properties": {
-          "auto_detect": {
-            "inclusion": "automatic",
-            "type": "object"
-          }
-        },
-        "type": "object"
-      }
-    },
-    {
-      "group": "Talent List ",
-      "stream": "Talent List -Sheet1",
-      "table_name": "Talent List -Sheet1",
-      "tap_stream_id": "1nD5qJdJwbp7mqH9fXEIOT7niWD747LwByxAW5v01_lM/Sheet1",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -3541,5 +3736,5 @@
       }
     }
   ],
-  "_signature": "7i4uMcegwH1mq2VcNJhfAPXdmFz1DOkXBWEONeDE4ZKZcHjIwG9cUtOCiyH3IfiaJkMz/F1S7o0Jgps2IFhgCg=="
+  "_signature": "NuiOkaLWJcLf8qgUk13luQyqTB4TePKWjkNqfydwOo/dF6o358NgeYOgUsDT7DI+lz53l9qjJ1FPjLokgCULBA=="
 }

@@ -1,0 +1,150 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-731.5867768595042 141.60377358490564"
+    },
+    {
+      "key": "5d5d648d-cead-4597-bb5d-144ad355729b",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "5d5d648d-cead-4597-bb5d-144ad355729b",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "id",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "STRING",
+              "valueOrOffset": "\\"
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-286.2644628099174 -150.54716981132077"
+    },
+    {
+      "key": "f035ba8a-4fb3-4050-8c1e-1a23124d4fc1",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "f035ba8a-4fb3-4050-8c1e-1a23124d4fc1",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "id",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "STRING",
+              "valueOrOffset": "\""
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-285.2644628099174 13.45283018867923"
+    },
+    {
+      "key": "76e8b2e4-e1b1-4e1e-bd04-c24a3efbd90c",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "76e8b2e4-e1b1-4e1e-bd04-c24a3efbd90c",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "id",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "STRING",
+              "valueOrOffset": "'"
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-285.2644628099174 203.45283018867923"
+    },
+    {
+      "key": "c1400876-efe9-436c-ba0a-d331bc14d548",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "c1400876-efe9-436c-ba0a-d331bc14d548",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "id",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "STRING",
+              "valueOrOffset": "."
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-288.2644628099174 406.45283018867923"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+      "to": "5d5d648d-cead-4597-bb5d-144ad355729b",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+      "to": "f035ba8a-4fb3-4050-8c1e-1a23124d4fc1",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+      "to": "76e8b2e4-e1b1-4e1e-bd04-c24a3efbd90c",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "28c708a7-2d6f-4148-be69-ab1255aa2387",
+      "to": "c1400876-efe9-436c-ba0a-d331bc14d548",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

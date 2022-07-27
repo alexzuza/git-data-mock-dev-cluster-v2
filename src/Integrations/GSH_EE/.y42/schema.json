@@ -1,0 +1,20 @@
+{
+  "streams": [
+    {
+      "group": "Copy of Copy of Numeric2",
+      "stream": "Copy of Copy of Numeric2-Sheet1",
+      "table_name": "Copy of Copy of Numeric2-Sheet1",
+      "tap_stream_id": "1-i4C4EYp9JybFumI8r1Yhif57JLxjpod93rGdog83GY/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "9qiN8QD2poJq8PiDl3OxMthWEj8Vaaz8Qhoh8MEeNFAIljFWpkLVLx4Vf7Z+ra4Vhhu2bNbZIjecoPlrg1BuDg=="
+}

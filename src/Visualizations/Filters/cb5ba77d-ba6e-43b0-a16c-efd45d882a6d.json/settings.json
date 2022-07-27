@@ -1,0 +1,21 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1",
+  "field_name": "confirmed",
+  "data_type": "BOOLEAN",
+  "type": "checkbox",
+  "operations": [
+    {
+      "operator": "=",
+      "values": [
+        false
+      ],
+      "operator_type": "absolute",
+      "value_type": "NONE"
+    }
+  ],
+  "options": {
+    "label": "Confirmed Y/N",
+    "layout": "toggle"
+  }
+}
