@@ -572,7 +572,7 @@
       "isSidebarType": true,
       "version": 1,
       "category": "pinNode",
-      "location": "210 81",
+      "location": "197.86645533897024 -21.461043804251403",
       "layerName": "",
       "zOrder": {
         "class": "NaN"
@@ -584,6 +584,28 @@
       "version": 1,
       "category": "pinNode",
       "location": "294 204",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "17bec265-2726-4e45-98a9-eccf27237b1e",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "451.6374957161083 12.13354466102976",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "ec892178-fd8a-43d2-85a0-767cbda89450",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "366.70268308889996 -289.85690023571135",
       "layerName": "",
       "zOrder": {
         "class": "NaN"
