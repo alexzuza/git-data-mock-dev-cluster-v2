@@ -1087,6 +1087,412 @@
       "isGroup": true,
       "group": "",
       "location": "515 0"
+    },
+    {
+      "key": "6284ba62-079f-409e-89fb-b192c2883d18",
+      "type": "FUNCTIONS_BIN",
+      "category": "FUNCTIONS_BIN",
+      "transformationStep": {
+        "id": "6284ba62-079f-409e-89fb-b192c2883d18",
+        "title": "",
+        "transformationType": "FUNCTIONS_BIN",
+        "transformObject": [
+          {
+            "target": "caseoutput",
+            "elseCase": "\"NOT\"",
+            "outputType": "STRING",
+            "name": "func",
+            "parameters": [
+              {
+                "filterString": "CONTAINS(@bslash, '\\\\\\\\')",
+                "name": "\"HAS BACKSLASH\"",
+                "filterFunctionTree": {
+                  "type": "Program",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "CONTAINS",
+                          "range": [
+                            0,
+                            8
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 1,
+                              "column": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 8
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "@bslash",
+                            "range": [
+                              9,
+                              16
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 1,
+                                "column": 9
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 16
+                              }
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "raw": "'\\\\\\\\'",
+                            "value": "\\\\",
+                            "range": [
+                              18,
+                              24
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 1,
+                                "column": 18
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 24
+                              }
+                            }
+                          }
+                        ],
+                        "optional": false,
+                        "range": [
+                          0,
+                          25
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 25
+                          }
+                        }
+                      },
+                      "range": [
+                        0,
+                        25
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25
+                        }
+                      }
+                    }
+                  ],
+                  "sourceType": "script",
+                  "range": [
+                    0,
+                    25
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 25
+                    }
+                  },
+                  "tokens": [
+                    {
+                      "type": "Identifier",
+                      "value": "CONTAINS",
+                      "range": [
+                        0,
+                        8
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 8
+                        }
+                      }
+                    },
+                    {
+                      "type": "Punctuator",
+                      "value": "(",
+                      "range": [
+                        8,
+                        9
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 9
+                        }
+                      }
+                    },
+                    {
+                      "type": "Identifier",
+                      "value": "@bslash",
+                      "range": [
+                        9,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    {
+                      "type": "Punctuator",
+                      "value": ",",
+                      "range": [
+                        16,
+                        17
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 16
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 17
+                        }
+                      }
+                    },
+                    {
+                      "type": "String",
+                      "value": "'\\\\\\\\'",
+                      "range": [
+                        18,
+                        24
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 18
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 24
+                        }
+                      }
+                    },
+                    {
+                      "type": "Punctuator",
+                      "value": ")",
+                      "range": [
+                        24,
+                        25
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 24
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25
+                        }
+                      }
+                    }
+                  ],
+                  "comments": []
+                },
+                "nameFunctionTree": {
+                  "type": "Program",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "Literal",
+                        "raw": "\"HAS BACKSLASH\"",
+                        "value": "HAS BACKSLASH",
+                        "range": [
+                          0,
+                          15
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 15
+                          }
+                        }
+                      },
+                      "range": [
+                        0,
+                        15
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 15
+                        }
+                      },
+                      "directive": "HAS BACKSLASH"
+                    }
+                  ],
+                  "sourceType": "script",
+                  "range": [
+                    0,
+                    15
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 15
+                    }
+                  },
+                  "tokens": [
+                    {
+                      "type": "String",
+                      "value": "\"HAS BACKSLASH\"",
+                      "range": [
+                        0,
+                        15
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 15
+                        }
+                      }
+                    }
+                  ],
+                  "comments": []
+                }
+              }
+            ],
+            "elseCaseFunctionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "raw": "\"NOT\"",
+                    "value": "NOT",
+                    "range": [
+                      0,
+                      5
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 5
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    5
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 5
+                    }
+                  },
+                  "directive": "NOT"
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                5
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 5
+                }
+              },
+              "tokens": [
+                {
+                  "type": "String",
+                  "value": "\"NOT\"",
+                  "range": [
+                    0,
+                    5
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 5
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "826.7272727272727 169.20096375729585"
     }
   ],
   "linkDataArray": [
@@ -1105,6 +1511,12 @@
     {
       "from": "773cdfaf-5775-40cf-b8e9-50258d5b5f7c",
       "to": "5d5d648d-cead-4597-bb5d-144ad355729b",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "773cdfaf-5775-40cf-b8e9-50258d5b5f7c",
+      "to": "6284ba62-079f-409e-89fb-b192c2883d18",
       "frompid": "OUT",
       "topid": "IN"
     }
