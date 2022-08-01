@@ -12,7 +12,9 @@
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
-  "typeSettings": null,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/Test_widget___Filters"
+  },
   "styles": {
     "background-color": "#ffffff",
     "border-color": "#f2f2f2",
