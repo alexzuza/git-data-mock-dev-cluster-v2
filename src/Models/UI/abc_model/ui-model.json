@@ -277,7 +277,20 @@
       "transformationStep": {
         "id": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
         "title": "",
-        "transformationType": "FIELDS"
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "id",
+            "source": "id",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
       },
       "isGroup": true,
       "group": "",

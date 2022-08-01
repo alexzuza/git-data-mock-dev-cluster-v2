@@ -1,0 +1,39 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.2/visualization/visualization-canvas-element.json",
+  "type": "Text",
+  "position": {
+    "x": 659.8443603515625,
+    "y": 394.4117126464844
+  },
+  "size": {
+    "width": 80,
+    "height": 25
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "textStyles": {
+      "font-weight": "bold",
+      "font-size": "13px",
+      "font-family": "Segoe UI",
+      "text-align": "left",
+      "color": "#000"
+    },
+    "text": "test text"
+  },
+  "styles": {
+    "border-color": "none",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(23px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": false,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}

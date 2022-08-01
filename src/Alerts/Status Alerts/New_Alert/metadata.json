@@ -2,7 +2,9 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "New Alert",
   "description": "something in the water",
-  "tags": [],
+  "tags": [
+    "tag"
+  ],
   "owners": {
     "team_ids": [],
     "user_ids": []

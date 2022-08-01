@@ -1,5 +1,189 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "41707ac0-d038-4203-85be-5e1a908ee808",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "41707ac0-d038-4203-85be-5e1a908ee808",
+        "title": "lyuba2",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-501 -326"
+    },
+    {
+      "key": "78d5cc40-a099-4233-b8b7-ec2a6cbdd0a5",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "78d5cc40-a099-4233-b8b7-ec2a6cbdd0a5",
+        "title": "src/Integrations/instagram/user_insights",
+        "transformationType": "INPUT",
+        "datasourceName": "instagram",
+        "transformObject": {
+          "source": "src/Integrations/instagram",
+          "table": "src/Integrations/instagram/user_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-677 -39"
+    },
+    {
+      "key": "b4d6d93b-d7c6-41b2-97d2-dcfa65636abc",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "b4d6d93b-d7c6-41b2-97d2-dcfa65636abc",
+        "title": "src/Integrations/facebook_pages/page_insight_website_clicks",
+        "transformationType": "INPUT",
+        "datasourceName": "facebook pages",
+        "transformObject": {
+          "source": "src/Integrations/facebook_pages",
+          "table": "src/Integrations/facebook_pages/page_insight_website_clicks",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-725 -515"
+    },
+    {
+      "key": "0b7c383f-c6cb-4e1b-825f-4c992a1c0c4c",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "0b7c383f-c6cb-4e1b-825f-4c992a1c0c4c",
+        "title": "lyuba2_1",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-491 -514"
+    },
+    {
+      "key": "a6532e47-1ca1-4bac-a1fe-17a81c6ca05c",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "a6532e47-1ca1-4bac-a1fe-17a81c6ca05c",
+        "title": "src/Integrations/instagram/user_insights",
+        "transformationType": "INPUT",
+        "datasourceName": "instagram",
+        "transformObject": {
+          "source": "src/Integrations/instagram",
+          "table": "src/Integrations/instagram/user_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-677 129"
+    },
+    {
+      "key": "cffef114-ed17-4bf8-9187-719d8c507f9a",
+      "type": "BIN",
+      "category": "BIN",
+      "transformationStep": {
+        "id": "cffef114-ed17-4bf8-9187-719d8c507f9a",
+        "title": "",
+        "transformationType": "BIN"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-357.29872698469285 132.69935227205025"
+    },
+    {
+      "key": "ddb83b52-93ae-4b80-8686-584a0c8f50c3",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "ddb83b52-93ae-4b80-8686-584a0c8f50c3",
+        "title": "src/Integrations/facebook_pages/page_insight_website_clicks",
+        "transformationType": "INPUT",
+        "datasourceName": "facebook pages",
+        "transformObject": {
+          "source": "src/Integrations/facebook_pages",
+          "table": "src/Integrations/facebook_pages/page_insight_website_clicks",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1291.2987269846928 -341.30064772794975"
+    },
+    {
+      "key": "943a41f3-51ec-4168-9302-434222a6ab76",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "943a41f3-51ec-4168-9302-434222a6ab76",
+        "title": "src/Models/UI/mod_21/mod_21",
+        "transformationType": "INPUT",
+        "datasourceName": "mod_21",
+        "transformObject": {
+          "source": "src/Models/UI/mod_21",
+          "table": "src/Models/UI/mod_21/mod_21",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1292.2987269846928 -131.30064772794975"
+    },
+    {
+      "key": "380f43be-a0f7-428b-ba6b-eea22f2a7d4e",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "380f43be-a0f7-428b-ba6b-eea22f2a7d4e",
+        "title": "",
+        "transformationType": "JOIN"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1031.2987269846928 -288.30064772794975"
+    },
+    {
+      "key": "cc90ddfd-899c-4146-8c25-bd45b2be69b1",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-1008 -509",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "0b7c383f-c6cb-4e1b-825f-4c992a1c0c4c",
+      "from": "b4d6d93b-d7c6-41b2-97d2-dcfa65636abc",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "cffef114-ed17-4bf8-9187-719d8c507f9a",
+      "from": "a6532e47-1ca1-4bac-a1fe-17a81c6ca05c",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "380f43be-a0f7-428b-ba6b-eea22f2a7d4e",
+      "from": "943a41f3-51ec-4168-9302-434222a6ab76",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
+      "from": "ddb83b52-93ae-4b80-8686-584a0c8f50c3",
+      "to": "380f43be-a0f7-428b-ba6b-eea22f2a7d4e",
+      "frompid": "OUT",
+      "topid": "R"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }

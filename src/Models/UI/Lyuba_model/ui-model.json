@@ -1,5 +1,107 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "b7dc52ec-10e3-4714-a031-bd30c996e09e",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "b7dc52ec-10e3-4714-a031-bd30c996e09e",
+        "title": "src/Models/UI/level_3/level_3",
+        "transformationType": "INPUT",
+        "datasourceName": "instagram",
+        "transformObject": {
+          "source": "src/Integrations/instagram",
+          "table": "src/Integrations/instagram/user_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-674 -289"
+    },
+    {
+      "key": "03976c6b-b428-44fd-b0ec-68efca6b3868",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "03976c6b-b428-44fd-b0ec-68efca6b3868",
+        "title": "src/Models/UI/abc_model/abc_model",
+        "transformationType": "INPUT",
+        "datasourceName": "abc_model",
+        "transformObject": {
+          "source": "src/Models/UI/abc_model",
+          "table": "src/Models/UI/abc_model/abc_model",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-403 12"
+    },
+    {
+      "key": "6458c394-20f5-4e9a-8c58-5c5a1777c080",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "6458c394-20f5-4e9a-8c58-5c5a1777c080",
+        "title": "src/Models/UI/level_3/level_3",
+        "transformationType": "INPUT",
+        "datasourceName": "instagram",
+        "transformObject": {
+          "source": "src/Integrations/instagram",
+          "table": "src/Integrations/instagram/user_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-669 -452"
+    },
+    {
+      "key": "825fb0a6-87f2-47bf-b9d3-7842ca34366c",
+      "type": "FUNCTIONS_BIN",
+      "category": "FUNCTIONS_BIN",
+      "transformationStep": {
+        "id": "825fb0a6-87f2-47bf-b9d3-7842ca34366c",
+        "title": "",
+        "transformationType": "FUNCTIONS_BIN"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-387 -321"
+    },
+    {
+      "key": "07e7c2c9-b483-4678-b71f-a0fe66d79595",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "07e7c2c9-b483-4678-b71f-a0fe66d79595",
+        "title": "",
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-337 -271"
+    },
+    {
+      "key": "56f9e6b6-bff2-423c-bc44-09ab8d668afa",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-601 -533",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "825fb0a6-87f2-47bf-b9d3-7842ca34366c",
+      "from": "b7dc52ec-10e3-4714-a031-bd30c996e09e",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
