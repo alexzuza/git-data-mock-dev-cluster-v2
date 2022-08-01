@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/tiktok-ads/0.0.0/table",
+  "columns": [
+    "campaign_id",
+    "campaign_name",
+    "advertiser_id",
+    "budget",
+    "budget_mode",
+    "opt_status",
+    "objective_type",
+    "is_new_structure",
+    "create_time",
+    "modify_time"
+  ],
+  "import": "campaigns"
+}
