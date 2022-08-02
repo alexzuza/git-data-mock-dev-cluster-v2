@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdumvhNJYu56TWBjVbvadxZ-2JvBdSc14Veom37yn1xUH4qBcJfMd_v9jLeKrCq7NtXmJAWDZL9AL8_F9FiQzqLWsBLB7VYX",
+  "originalName": "1000000 Sales Records.csv",
+  "size": "124793263",
+  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/1a9a737c-e2ae-4816-a7c8-6a710354a07d",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
