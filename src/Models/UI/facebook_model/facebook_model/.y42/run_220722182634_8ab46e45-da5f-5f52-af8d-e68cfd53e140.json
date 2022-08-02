@@ -1,0 +1,43 @@
+{
+  "request_id": "220722182634_8ab46e45-da5f-5f52-af8d-e68cfd53e140",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "f192b041-96a0-4528-8326-6c7b8f412425"
+    },
+    "created_at": "2022-07-22T18:26:34.422761+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/facebook_model/facebook_model",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "65c81612c95a7c044f25f9d01caabfe2deba02e5"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_348a9867-3cb5-4d12-9191-521a4ae419bb.json",
+      "trial": true
+    },
+    "previous_import_id": "81faf5da-5068-5c54-a361-d8d2a51c3d41",
+    "previous_table_id": "220720152926_81faf5da-5068-5c54-a361-d8d2a51c3d41"
+  },
+  "created_at": "2022-07-22T18:26:34.422761+00:00",
+  "failed_at": "2022-07-22T18:26:43.607293+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"datetime\":\"2022-07-22T18:26:43.425582+00:00\",\"requestId\":\"fb8cfded-d240-4999-9b4b-58cf48ce7f5d\",\"exception\":{\"class\":\"TypeError\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"code\":0,\"file\":\"/var/www/vendor/datos_intelligence/api_connector/src/ApiConnector.php:25\"},\"channel\":\"local\"}",
+  "_signature": "JaLE4dSb6kYtmUaHYKgsuOI4LPujOSY/D8gMLXetU7LOGdlonJGILguuSb5QNXovSg2SLrc1g84EvlK2+7fZDw=="
+}

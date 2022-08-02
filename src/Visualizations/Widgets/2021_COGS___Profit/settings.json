@@ -258,6 +258,17 @@
         "functionTree": null,
         "show_in_percentage": false,
         "filters": []
+      },
+      {
+        "field": "item",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_item_1d5e1e02_a222_4e0c_ba48_c07b801562b0",
+        "id": "1d5e1e02_a222_4e0c_ba48_c07b801562b0",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
       }
     ],
     "settings": {
@@ -267,7 +278,7 @@
           "mark": "bar",
           "stack_name": 1,
           "label": {
-            "show": true,
+            "show": false,
             "field_ids": [],
             "rotate": 0,
             "align": "center",
@@ -287,7 +298,7 @@
           "mark": "bar",
           "stack_name": 2,
           "label": {
-            "show": true,
+            "show": false,
             "field_ids": [],
             "rotate": 0,
             "align": "center",
@@ -315,7 +326,9 @@
       "dimensions": [
         "a3621289_c251_45db_8832_d3d1b386a656"
       ],
-      "breakdowns": [],
+      "breakdowns": [
+        "1d5e1e02_a222_4e0c_ba48_c07b801562b0"
+      ],
       "series_on_y": true,
       "serieAxis": {
         "min": null,
@@ -471,7 +484,7 @@
           "end": 100
         }
       },
-      "show_stack_by": false,
+      "show_stack_by": true,
       "show_stack_by_100_percent": false,
       "stackFormatConfig": {
         "format": "inherit",
@@ -498,7 +511,9 @@
         "fieldSortKey": null,
         "stackNameSortKey": null
       },
-      "show_total_for_stacks": []
+      "show_total_for_stacks": [
+        "all"
+      ]
     }
   },
   "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",

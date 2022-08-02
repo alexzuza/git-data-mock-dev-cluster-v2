@@ -1,0 +1,45 @@
+{
+  "request_id": "220723124010_c830fd7e-7518-5bd6-8835-22e5184a246b",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_1"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-07-23T12:40:10.933605+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/My_SQL_Model/table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "a4ad4eee45472c69523ac20a83c5bf6c9473da7b"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_7b19d954-f0aa-4f46-a5cc-5164170f24b7.json",
+      "trial": true
+    },
+    "previous_import_id": "223e23d3-0eef-560c-9b1f-a743e947e58c",
+    "previous_table_id": "220720152511_223e23d3-0eef-560c-9b1f-a743e947e58c"
+  },
+  "created_at": "2022-07-23T12:40:10.933605+00:00",
+  "failed_at": "2022-07-23T12:40:28.086640+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"datetime\":\"2022-07-23T12:40:27.892363+00:00\",\"requestId\":\"5349ab4a-99aa-432b-8974-61563996038d\",\"exception\":{\"class\":\"TypeError\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"code\":0,\"file\":\"/var/www/vendor/datos_intelligence/api_connector/src/ApiConnector.php:25\"},\"channel\":\"local\"}",
+  "_signature": "miPIpnLmOpKzzsch7jne/D1eu44EFZBXsyJL4xyNOAHs8axs7jWSRk1vsiSBexB6ct1mGLb63w7//QER3c7ICg=="
+}

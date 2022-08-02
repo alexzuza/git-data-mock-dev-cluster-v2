@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1",
+  "field_name": "cancel_reason",
+  "data_type": "STRING",
+  "type": "multiselect",
+  "operations": [],
+  "options": [
+    "other",
+    "customer",
+    "inventory"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "request_id": "220726125401_a82de997-73c3-574b-9cce-733785f68f2b",
+  "status": "ready",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_1"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-07-26T12:54:01.346256+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/testing_commit/table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "eecacecbc9ace2e1a62441dc99fac2a5b2494d3f"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-26T12:54:01.346256+00:00",
+  "finished_at": "2022-07-26T12:54:22.255976+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-26T12:54:22.255838+00:00",
+    "row_count": 5000,
+    "current_import_row_count": 5000,
+    "size_in_bytes": 2359000,
+    "external_id": "a6cf09e9-35bc-41b8-aa66-fd5791020873",
+    "columns": [
+      {
+        "field_name": "device_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "shipping_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "discount_applications",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220726125401_a82de997-73c3-574b-9cce-733785f68f2b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220726125401_a82de997-73c3-574b-9cce-733785f68f2b&page=table"
+  },
+  "_signature": "CTQa1a/YfDRjSgclplIa00sAjMd0RiebRlRO+8p8sTE0r4Ztk/CgGoVnWn5PGRzlB8OqQkRUebVIMZdvVRfbDA=="
+}

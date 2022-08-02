@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
-  "cronExpression": "0/5 * 1/1 * *",
+  "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [
     {
@@ -64,5 +64,17 @@
       }
     }
   ],
-  "visualDataArray": []
+  "visualDataArray": [
+    {
+      "key": "1aac97d5-0fe8-4562-b15b-d95052a78ea2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "1357.1428571428573 285.44642857142867",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ]
 }

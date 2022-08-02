@@ -282,6 +282,39 @@
       "isGroup": true,
       "group": "",
       "location": "112.62712688381146 -253.21505583365422"
+    },
+    {
+      "key": "53b3fcc8-0d6b-41c2-b179-71cb43d573b2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "134 -395",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "b832de5d-36d1-493b-9205-5451e6e1b7f1",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "330.4401357498963 -563.3093652744295",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "117e8282-fc27-4175-8069-aff7c6f3d5a4",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-27 -671",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [

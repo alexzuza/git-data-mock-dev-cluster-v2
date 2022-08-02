@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
+  "feature_type": "SQL-Model",
+  "alert_on": [
+    "failure"
+  ],
+  "triggered_by": [
+    "user"
+  ],
+  "title": "sfd",
+  "message_body": "\n<p>Hi,</p><br/>\n\n<p>The {{feature_type}}: {{object_name}} was a {{status}} at {{completed_at}}.</p>\n<p>Here is the link to your {{feature_type}}: {{url}}</p><br/>\n\n<p>Have a nice day,</p>\n<p>Y42</p>\n",
+  "patterns": [],
+  "tags": [
+    "tag3"
+  ],
+  "destinations": [
+    {
+      "type": "internal_notification",
+      "user_ids": [],
+      "team_ids": []
+    }
+  ]
+}

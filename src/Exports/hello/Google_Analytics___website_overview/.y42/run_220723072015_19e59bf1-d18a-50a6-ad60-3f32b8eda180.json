@@ -1,0 +1,43 @@
+{
+  "request_id": "220723072015_19e59bf1-d18a-50a6-ad60-3f32b8eda180",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "created_at": "2022-07-23T07:20:15.337440+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "b6f938c9c06ae6d2f58d0ce24b4ec9f8d7fdf85d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_52e0aec4-d846-43e7-bc42-380bdf1436d7.json",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-23T07:20:15.337440+00:00",
+  "finished_at": "2022-07-23T07:20:43.458894+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220723072015_19e59bf1-d18a-50a6-ad60-3f32b8eda180.xlsx?Expires=1661239243&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=e%2F9Zx4z5BkIPptdrzu7JiijqRYE72DlSmFV8jIamYg5GWcozKdtkKxPEXmPkC2INlS2NOkxKNPVU5jZSy0hTUwf59F3pgViaJpHTQsIEt8W5oGfpoJp%2BkYuwYRQJBJvmHFiWauoDynP%2FsvpGAI6p9qI%2BgkRQjXKLlkJzHrgp9gDs4uXzxKNpSWj95jJlFYuWz5VlM2NiAhuJ2f0RvAmBaQLI84fWwcMJf6F9FbYZfBzHSFr5AO09HL%2BntQ66FgopMKqDtBI0jbFF020K2YizguJ%2Bz1xuawhhHHOXHfN9NxaHomKNwb0VaO4QBp7R1uhDaDSvC%2BladZm%2F4cQSnzqcvw%3D%3D"
+  },
+  "_signature": "6rdPSVN1dwMqdkWRXjLgxs80Ud3zSH4N5vjC82UXIBSTNBYNrbQ3WWGYvKbIjBhoirivcDw7G2xr+j+JzsnvAA=="
+}

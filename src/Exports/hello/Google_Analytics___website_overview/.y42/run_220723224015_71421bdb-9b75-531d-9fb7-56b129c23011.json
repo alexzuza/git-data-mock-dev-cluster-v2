@@ -1,0 +1,43 @@
+{
+  "request_id": "220723224015_71421bdb-9b75-531d-9fb7-56b129c23011",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "created_at": "2022-07-23T22:40:15.962657+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "76da70a4f57b94304f7187a0cd87f6d03aa8cf27"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_2d295366-94eb-4e46-b519-9510418e8f86.json",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-23T22:40:15.962657+00:00",
+  "finished_at": "2022-07-23T22:40:41.762131+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220723224015_71421bdb-9b75-531d-9fb7-56b129c23011.xlsx?Expires=1661294441&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=RUNRwpkkAgSyTC6shcmqe1Hu62D7jB9HE%2FDO37ZarCEJH4YrMisasz4JEf0yxmc6uwdc31qbc0MLDdCjN2u57mHlLo9G8dOwzOkhBsnIrvMTw21nHjTMFZX21ZVk2ns4QgXAFjoZmyHjlK2MUpS1DLSlwgQw%2Bf%2BJ5Chpu8Nu6Pp%2Bep8mLKV0HO8bo2wElCEcl9Vg5%2FNguDJOKggkmUUUCC8DvkPvsHDb6sK0GO83ILeF1dvEdlMQDazwc5uxMRSzN0Iz1Z%2FrW1jaiqG5TEcIO1UYFK8%2BLS8WAL5dls928w0OWOooKl4tllqKf0pDnIjzZ9Ty%2B%2F%2FvYEgly3BaKmo6IA%3D%3D"
+  },
+  "_signature": "Ii5+R1XBNdepDRoIhkSqK+pBHA82Eqsvi1VJJlmQ2H0k8rW0TKD6oJV29Uj7vBykMgc1yMkFWyTAs+yN5yslBQ=="
+}

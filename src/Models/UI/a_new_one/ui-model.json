@@ -1,0 +1,583 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "fe6239d0-34de-4643-9f6d-29cfa3031031",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "fe6239d0-34de-4643-9f6d-29cfa3031031",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-890.8823529411765 -313.57142857142856"
+    },
+    {
+      "key": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "newcol",
+            "originalString": "CONTAINS(@id_text_repeatable_, 'a')",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CONTAINS",
+                      "range": [
+                        0,
+                        8
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 8
+                        }
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "@id_text_repeatable_",
+                        "range": [
+                          9,
+                          29
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 29
+                          }
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "raw": "'a'",
+                        "value": "a",
+                        "range": [
+                          31,
+                          34
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 31
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 34
+                          }
+                        }
+                      }
+                    ],
+                    "optional": false,
+                    "range": [
+                      0,
+                      35
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 35
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    35
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 35
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                35
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 35
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CONTAINS",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    8,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "value": "@id_text_repeatable_",
+                  "range": [
+                    9,
+                    29
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 29
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ",",
+                  "range": [
+                    29,
+                    30
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 29
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 30
+                    }
+                  }
+                },
+                {
+                  "type": "String",
+                  "value": "'a'",
+                  "range": [
+                    31,
+                    34
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 34
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    34,
+                    35
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 34
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 35
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-503.3529411764706 -291.3265306122449"
+    },
+    {
+      "key": "faf66ba4-6c98-4de4-9098-f8cfa67f3e53",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "faf66ba4-6c98-4de4-9098-f8cfa67f3e53",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "negative",
+            "source": "negative",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "negative_double",
+            "source": "negative_double",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "text",
+            "source": "text",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_repeatable",
+            "source": "id_repeatable",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_text_repeatable_",
+            "source": "id_text_repeatable_",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_of_mix",
+            "source": "id_of_mix",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "boolean",
+            "source": "boolean",
+            "type": "BOOLEAN",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "date",
+            "source": "date",
+            "type": "DATE",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "date_time",
+            "source": "date_time",
+            "type": "TIMESTAMP",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "time",
+            "source": "time",
+            "type": "TIME",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-520.7647058823529 -44.26530612244892"
+    },
+    {
+      "key": "a83b24fa-dece-4eda-8d8c-e1a4ea656c20",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "a83b24fa-dece-4eda-8d8c-e1a4ea656c20",
+        "title": "a_new_one",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "a_new_one",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "newcol",
+              "source": "newcol",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "69.88235294117658 -353.0204081632653"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+      "from": "fe6239d0-34de-4643-9f6d-29cfa3031031",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "fe6239d0-34de-4643-9f6d-29cfa3031031",
+      "to": "faf66ba4-6c98-4de4-9098-f8cfa67f3e53",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+      "to": "a83b24fa-dece-4eda-8d8c-e1a4ea656c20",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}
