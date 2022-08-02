@@ -1,1 +1,1 @@
-ALTER TABLE  {{ ref('src/Integrations/Google_Analytics/website_overview') }}
+ALTER TABLE  {{ref(website_overview)}}
