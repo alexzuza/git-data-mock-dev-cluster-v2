@@ -1,8 +1,18 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0/15 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "13ff8c5f-3d86-4269-8176-9f90c73a1fb9",
+      "path": "src/Integrations/Google_Analytics/website_overview",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
