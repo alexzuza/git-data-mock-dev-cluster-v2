@@ -5,13 +5,12 @@
   "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "9501414d-51a5-464c-a807-1727a0720101",
-      "path": "src/Integrations/MySql_Integration_NOT_EXIST/test_view",
+      "key": "cf5b917a-04f4-40fb-8326-d4aae8bd5780",
+      "path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
       "location": "0 0",
       "onFailure": "stop",
       "nodeConfig": {
-        "incremental": true,
-        "globalCustomerId": "Test-MySql_Integration-Test-2"
+        "incremental": true
       }
     }
   ],
