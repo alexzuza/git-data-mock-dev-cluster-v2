@@ -1,8 +1,18 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0/15 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "5c56da22-0169-4442-acd2-fd67cf47dd07",
+      "path": "src/Integrations/GSH_EE/Copy of Copy of Numeric2-Sheet1",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
