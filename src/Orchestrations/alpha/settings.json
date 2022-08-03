@@ -14,5 +14,17 @@
       }
     }
   ],
-  "visualDataArray": []
+  "visualDataArray": [
+    {
+      "key": "e65661f8-9d09-4c59-96dd-33bc4f9a9cdc",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "552.8571428571428 55.446428571428555",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ]
 }
