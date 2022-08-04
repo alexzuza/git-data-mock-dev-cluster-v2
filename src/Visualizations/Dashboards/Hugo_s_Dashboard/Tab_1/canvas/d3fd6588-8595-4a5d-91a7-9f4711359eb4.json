@@ -13,7 +13,7 @@
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/Test_widget___Filters"
+    "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
   },
   "styles": {
     "background-color": "#ffffff",

@@ -1,19 +1,41 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/orchestration/orchestration-settings.json",
-  "cronExpression": "0/30 * 1/1 * *",
+  "cronExpression": "0/20 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "9501414d-51a5-464c-a807-4727a0720101",
-      "path": "src/Integrations/MySql_Integration/test_view",
+      "key": "69a9591f-480f-499c-b8af-cd703578de95",
+      "path": "src/Integrations/Google_Analytics/website_overview",
       "location": "0 0",
       "onFailure": "stop",
       "nodeConfig": {
-        "incremental": true,
-        "globalCustomerId": "Test-MySql_Integration"
+        "incremental": true
       }
     }
   ],
-  "visualDataArray": []
+  "visualDataArray": [
+    {
+      "key": "c293449a-33a6-4cef-bea0-28d784b94c07",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "878.5714285714289 -237.1428571428571",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "a5ece442-6bea-449a-9add-0a0bc4acb8ae",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "722.8571428571429 56.875",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ]
 }
