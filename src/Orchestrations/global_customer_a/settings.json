@@ -25,6 +25,17 @@
       "zOrder": {
         "class": "NaN"
       }
+    },
+    {
+      "key": "a5ece442-6bea-449a-9add-0a0bc4acb8ae",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "722.8571428571429 56.875",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ]
 }
