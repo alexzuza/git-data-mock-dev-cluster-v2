@@ -6,7 +6,7 @@
   "size": "42",
   "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/3647d915-cddd-4e73-87df-ea8708e285d9",
   "csv_options": {
-    "field_delimiter": "|",
+    "field_delimiter": ",",
     "allow_quoted_new_lines": true,
     "null_marker": "",
     "ignore_unknown_values": false,
