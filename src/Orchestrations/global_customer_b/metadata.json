@@ -2,7 +2,10 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/core/y42-metadata.json",
   "name": "global_customer_b",
   "description": "",
-  "tags": [],
+  "tags": [
+    "tag1",
+    "my tag2"
+  ],
   "owners": {
     "user_ids": [],
     "team_ids": []
