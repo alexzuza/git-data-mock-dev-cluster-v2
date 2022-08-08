@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/table",
+  "columns": [
+    "name",
+    "admin",
+    "role",
+    "pendingInvitation"
+  ],
+  "import": "locations_admins"
+}

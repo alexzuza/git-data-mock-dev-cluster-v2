@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/table",
+  "columns": [
+    "name",
+    "languageCode",
+    "summary",
+    "callToAction",
+    "createTime",
+    "updateTime",
+    "event",
+    "state",
+    "media",
+    "searchUrl",
+    "topicType",
+    "alertType",
+    "offer"
+  ],
+  "import": "local_posts",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
