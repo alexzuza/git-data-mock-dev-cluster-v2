@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#xlsx",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdv0OBrRMt3yvCLxOZ-Cw6em4HGPDb3wtKSnPv0W7sV7Mqnwh-vcxWEOa1Auoi8J6p0xGcD84jlhK--DE3hkG65H-hOL6Bm0",
+  "originalName": "Test - Test.csv",
+  "size": "42",
+  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/2d369821-8681-4b8c-8048-09821f51a675",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
