@@ -1,8 +1,32 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.2/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "15 0/1 1/1 * *",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "421e2159-5b71-43a0-9aec-43c8ed673793",
+      "to": "a7d5ef29-6932-4942-aa35-4e961ec2d06f"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "a7d5ef29-6932-4942-aa35-4e961ec2d06f",
+      "path": "src/Models/UI/end_09/end_09",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "421e2159-5b71-43a0-9aec-43c8ed673793",
+      "path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
