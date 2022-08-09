@@ -6,7 +6,7 @@
   "nodeDataArray": [
     {
       "key": "9501414d-51a5-464c-a807-4727a0720102",
-      "path": "src/Integrations/MySql_Integration/test_pk",
+      "path": "src/Integrations/Google_Analytics/website_overview",
       "location": "0 0",
       "onFailure": "stop",
       "nodeConfig": {
