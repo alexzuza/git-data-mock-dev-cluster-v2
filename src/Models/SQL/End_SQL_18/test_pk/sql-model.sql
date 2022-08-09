@@ -1,1 +1,2 @@
-ALTER TABLE  {{ref(website_overview)}}
+ALTER TABLE  google
+ADD PRIMARY KEY (id);

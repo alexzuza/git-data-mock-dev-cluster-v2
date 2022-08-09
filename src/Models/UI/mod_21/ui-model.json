@@ -621,6 +621,48 @@
       "zOrder": {
         "class": "NaN"
       }
+    },
+    {
+      "key": "3eb5bd6a-7a89-4b55-82d8-55d9df72ddcf",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-322.59701772659037 -335.79416845176905",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "fcec4ad2-0460-40d1-9814-77e95580d371",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "fcec4ad2-0460-40d1-9814-77e95580d371",
+        "title": "",
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-640.3954095456806 -369.7074518893183"
+    },
+    {
+      "key": "25ada6c4-d7bc-4d76-893d-3a2d104cf6a3",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "textNode",
+      "text": "",
+      "font": "normal 22px Segoe UI",
+      "textColor": "#000000",
+      "textHighlightColor": "",
+      "textAlignment": "left",
+      "locked": false,
+      "location": "-33.020031444068536 -310.59467077076937",
+      "shadowColor": "#00000040",
+      "shadowOffset": "0 0",
+      "shadowBlur": 0,
+      "layerName": "bringToFront",
+      "zOrder": 1
     }
   ],
   "linkDataArray": [
