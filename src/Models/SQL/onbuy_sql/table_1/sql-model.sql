@@ -5,7 +5,7 @@ Select
   processing_method,
   order_number,
   confirmed,
-  total_discounts,
+  total_discou  nts,
   total_line_items_price,
   order_adjustments,
   shipping_lines,
@@ -39,3 +39,5 @@ Select
   updated_at,
   reference
 from {{ ref('src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1') }}
+
+S

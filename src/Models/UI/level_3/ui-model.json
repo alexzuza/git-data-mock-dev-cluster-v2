@@ -271,105 +271,23 @@
       "location": "-427.82644628099183 -55.12264150943395"
     },
     {
-      "key": "1f7e517d-121b-435e-8192-7d6ddb86c80c",
-      "type": "JOIN",
-      "category": "JOIN",
+      "key": "750d3ee8-88ea-40b2-ac79-538494f6fccf",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
       "transformationStep": {
-        "id": "1f7e517d-121b-435e-8192-7d6ddb86c80c",
+        "id": "750d3ee8-88ea-40b2-ac79-538494f6fccf",
         "title": "",
-        "transformationType": "JOIN"
+        "transformationType": "FUNCTIONS"
       },
       "isGroup": true,
       "group": "",
-      "location": "-949.2769045012076 -260.8271757147106"
-    },
-    {
-      "key": "6c9f43d2-5bf4-4913-bba5-2d3f6328bbf7",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "6c9f43d2-5bf4-4913-bba5-2d3f6328bbf7",
-        "title": "src/Models/UI/mod_21/mod_21",
-        "transformationType": "INPUT",
-        "datasourceName": "abc_model",
-        "transformObject": {
-          "source": "src/Models/UI/abc_model",
-          "table": "src/Models/UI/abc_model/abc_model",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-1226.0171888827226 -369.9918051553064"
-    },
-    {
-      "key": "611e9027-17aa-44c8-b88c-be29558d2a59",
-      "type": "PIVOT",
-      "category": "PIVOT",
-      "transformationStep": {
-        "id": "611e9027-17aa-44c8-b88c-be29558d2a59",
-        "title": "",
-        "transformationType": "PIVOT"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-1049.62634698085 -493.47326623207914"
-    },
-    {
-      "key": "ab092a82-f04d-469a-a3d4-1380d582e2c1",
-      "type": "UNION",
-      "category": "UNION",
-      "transformationStep": {
-        "id": "ab092a82-f04d-469a-a3d4-1380d582e2c1",
-        "title": "",
-        "transformationType": "UNION"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-741.62634698085 -435.47326623207914"
-    },
-    {
-      "key": "e10efb48-5cc6-49bd-8e4b-96adf04920cd",
-      "type": "FUNCTIONS_BIN",
-      "category": "FUNCTIONS_BIN",
-      "transformationStep": {
-        "id": "e10efb48-5cc6-49bd-8e4b-96adf04920cd",
-        "title": "",
-        "transformationType": "FUNCTIONS_BIN"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-691.62634698085 -385.47326623207914"
+      "location": "-1009.809917355372 -255.7028301886793"
     }
   ],
   "linkDataArray": [
     {
-      "to": "1f7e517d-121b-435e-8192-7d6ddb86c80c",
       "from": "030ca6a6-3e54-442f-a9f0-6e47bcfd21ac",
-      "frompid": "OUT",
-      "topid": "L"
-    },
-    {
-      "from": "6c9f43d2-5bf4-4913-bba5-2d3f6328bbf7",
-      "to": "1f7e517d-121b-435e-8192-7d6ddb86c80c",
-      "frompid": "OUT",
-      "topid": "R"
-    },
-    {
-      "to": "611e9027-17aa-44c8-b88c-be29558d2a59",
-      "from": "6c9f43d2-5bf4-4913-bba5-2d3f6328bbf7",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "to": "ab092a82-f04d-469a-a3d4-1380d582e2c1",
-      "from": "611e9027-17aa-44c8-b88c-be29558d2a59",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "from": "1f7e517d-121b-435e-8192-7d6ddb86c80c",
-      "to": "ab092a82-f04d-469a-a3d4-1380d582e2c1",
+      "to": "750d3ee8-88ea-40b2-ac79-538494f6fccf",
       "frompid": "OUT",
       "topid": "IN"
     }

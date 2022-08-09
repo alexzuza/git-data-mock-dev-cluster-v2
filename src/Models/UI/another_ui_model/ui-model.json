@@ -375,6 +375,19 @@
       "shadowBlur": 0,
       "layerName": "bringToFront",
       "zOrder": 3
+    },
+    {
+      "key": "12a076d6-40ac-4595-86ce-3db38a0f3f95",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "12a076d6-40ac-4595-86ce-3db38a0f3f95",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-383.30882352941177 -720.8666249518676"
     }
   ],
   "linkDataArray": [
@@ -412,6 +425,12 @@
       "frompid": "sidebarPort_right",
       "topid": "sidebarPort_left",
       "fromPortId": "sidebarPort_right"
+    },
+    {
+      "from": "db3af513-e528-407c-a089-793ebb427ebc",
+      "to": "12a076d6-40ac-4595-86ce-3db38a0f3f95",
+      "frompid": "OUT",
+      "topid": "IN"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"

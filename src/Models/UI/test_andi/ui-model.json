@@ -1,5 +1,19 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "aeefaadb-a16b-4ca5-8521-3c1724e62bda",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "aeefaadb-a16b-4ca5-8521-3c1724e62bda",
+        "title": "test_andi",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-424.6735537190083 -233.68867924528303"
+    }
+  ],
   "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
