@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.2/visualization/visualization-dashboard-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/visualization/visualization-dashboard-settings.json",
   "theme": "src/Visualizations/Themes/Hugo's Theme-09f99663-6f47-42ad-8737-23a0004b9b2e.json",
   "order": [
     "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1",
