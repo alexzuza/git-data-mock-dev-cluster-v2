@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/export/export-trigger-settings.json",
-  "sheet_id": "1rpqTvtC4W98J-8C9QxIYYkqn7j7tue9WbUyRWlRzeUc",
-  "datasource_table_path": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1"
+  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+  "datasource_table": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1",
+  "sheet_id": "1rpqTvtC4W98J-8C9QxIYYkqn7j7tue9WbUyRWlRzeUc"
 }

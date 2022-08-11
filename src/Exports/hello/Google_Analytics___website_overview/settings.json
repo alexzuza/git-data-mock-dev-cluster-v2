@@ -1,4 +1,4 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/export/export-trigger-settings.json",
-  "datasource_table_path": "src/Integrations/Google_Analytics/website_overview"
+  "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+  "datasource_table": "src/Integrations/Google_Analytics/website_overview"
 }

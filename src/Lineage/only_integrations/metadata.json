@@ -1,6 +1,6 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.2/core/y42-metadata.json",
-  "name": "Copy of Numeric2-Sheet1",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/core/y42-metadata.json",
+  "name": "only_integrations",
   "description": "",
   "tags": [],
   "owners": {
