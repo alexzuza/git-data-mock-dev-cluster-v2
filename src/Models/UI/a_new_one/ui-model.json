@@ -584,7 +584,21 @@
       "transformationStep": {
         "id": "99207a9f-acc8-4bef-86ba-b2606253d0de",
         "title": "",
-        "transformationType": "JOIN"
+        "transformationType": "JOIN",
+        "transformObject": {
+          "type": "inner",
+          "left": "42214ee5-d1a2-4a93-a1b6-3816b517338b",
+          "right": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+          "joinConditions": [
+            {
+              "left": "id",
+              "right": "id"
+            }
+          ],
+          "customMapping": {
+            "id": "id"
+          }
+        }
       },
       "isGroup": true,
       "group": "",
