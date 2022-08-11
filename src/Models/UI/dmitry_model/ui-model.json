@@ -1,5 +1,45 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "68db067f-6985-45c5-a960-304aa376b55c",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "68db067f-6985-45c5-a960-304aa376b55c",
+        "title": "src/Integrations/MySql_Integration/campaign",
+        "transformationType": "INPUT",
+        "datasourceName": "MySql Integration",
+        "transformObject": {
+          "source": "src/Integrations/MySql_Integration",
+          "table": "src/Integrations/MySql_Integration/campaign",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "0 0"
+    },
+    {
+      "key": "836feb87-4270-42ac-a670-1be634cca626",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "836feb87-4270-42ac-a670-1be634cca626",
+        "title": "dmitry_model",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "240 71"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "836feb87-4270-42ac-a670-1be634cca626",
+      "from": "68db067f-6985-45c5-a960-304aa376b55c",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
