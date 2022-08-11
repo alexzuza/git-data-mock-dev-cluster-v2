@@ -556,7 +556,39 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "69.88235294117658 -353.0204081632653"
+      "location": "-23.117647058823422 -285.0204081632653"
+    },
+    {
+      "key": "42214ee5-d1a2-4a93-a1b6-3816b517338b",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "42214ee5-d1a2-4a93-a1b6-3816b517338b",
+        "title": "src/Models/UI/another_ui_model/another_ui_model",
+        "transformationType": "INPUT",
+        "datasourceName": "another_ui_model",
+        "transformObject": {
+          "source": "src/Models/UI/another_ui_model",
+          "table": "src/Models/UI/another_ui_model/another_ui_model",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-456.91176470588226 -609.1122448979592"
+    },
+    {
+      "key": "99207a9f-acc8-4bef-86ba-b2606253d0de",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "99207a9f-acc8-4bef-86ba-b2606253d0de",
+        "title": "",
+        "transformationType": "JOIN"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-172.02941176470574 -556.969387755102"
     }
   ],
   "linkDataArray": [
@@ -573,7 +605,19 @@
       "topid": "IN"
     },
     {
+      "from": "42214ee5-d1a2-4a93-a1b6-3816b517338b",
+      "to": "99207a9f-acc8-4bef-86ba-b2606253d0de",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
       "from": "95c7c8a6-d1d6-4f06-923a-d9eee56cab96",
+      "to": "99207a9f-acc8-4bef-86ba-b2606253d0de",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "99207a9f-acc8-4bef-86ba-b2606253d0de",
       "to": "a83b24fa-dece-4eda-8d8c-e1a4ea656c20",
       "frompid": "OUT",
       "topid": "IN"
