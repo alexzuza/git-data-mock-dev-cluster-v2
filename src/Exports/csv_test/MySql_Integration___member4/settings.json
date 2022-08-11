@@ -1,4 +1,4 @@
 {
-  "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
-  "datasource_table": "src/Integrations/MySql_Integration/member"
+  "$schema": "https://s.dev.y42.dev/exports/csv/0.0.1/table",
+  "datasource_table_path": "src/Integrations/MySql_Integration/member"
 }
