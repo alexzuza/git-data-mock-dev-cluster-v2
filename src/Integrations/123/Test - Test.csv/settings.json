@@ -1,12 +1,12 @@
 {
   "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
   "content-type": "text/csv",
-  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdvh2nSMOv6zSwQ2sO1deatmhG9EB4tSp8gZlMaNMmOjoWIVl16QtfBUY4SZG1De6cLC3l5tBSy5R7ec4IbBefvjiQ",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/o?uploadType=resumable&upload_id=ADPycdu2G_DHjcHSJeTL-6RH01F-PfPEv7uCcYP8YMTFMvrXAwoKgb-09Vkxpe0cy4HUv-HMPgm2mJVJkyd0kFOlyZU8bkI4Ncc7",
   "originalName": "Test - Test.csv",
   "size": "42",
-  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/295a0bc0-0700-48b8-a676-3fe4d64537c2",
+  "uri": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/file-upload/8c0d6acc-1da4-43f5-b8b1-326cdb308b0a",
   "csv_options": {
-    "field_delimiter": "|",
+    "field_delimiter": ";",
     "allow_quoted_new_lines": true,
     "null_marker": "",
     "ignore_unknown_values": false,
