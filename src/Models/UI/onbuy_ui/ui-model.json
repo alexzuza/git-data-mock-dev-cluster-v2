@@ -941,43 +941,30 @@
       "location": "1386.2903508771926 0"
     },
     {
-      "key": "5e24284a-923f-4883-926a-b862882085e5",
+      "key": "295f46c2-bdbb-4583-9eae-4e2dfe250c2b",
       "type": "FILTER",
       "category": "FILTER",
       "transformationStep": {
-        "id": "5e24284a-923f-4883-926a-b862882085e5",
+        "id": "295f46c2-bdbb-4583-9eae-4e2dfe250c2b",
         "title": "",
         "transformationType": "FILTER"
       },
       "isGroup": true,
       "group": "",
-      "location": "293.742738481541 370.9995986235425"
+      "location": "297.5666248768868 241.58367854045773"
     },
     {
-      "key": "edd2a50a-b294-4e7a-81d3-1e9f5b61ccd7",
-      "type": "FUNCTIONS_FILTER",
-      "category": "FUNCTIONS_FILTER",
+      "key": "ee76b388-5522-44a1-8943-3da2729f02e2",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
       "transformationStep": {
-        "id": "edd2a50a-b294-4e7a-81d3-1e9f5b61ccd7",
+        "id": "ee76b388-5522-44a1-8943-3da2729f02e2",
         "title": "",
-        "transformationType": "FUNCTIONS_FILTER"
+        "transformationType": "FUNCTIONS"
       },
       "isGroup": true,
       "group": "",
-      "location": "294.488033041356 203.86438411419567"
-    },
-    {
-      "key": "e3c966ec-8cbc-471c-8600-b6e03a77860c",
-      "type": "FUNCTIONS_BIN",
-      "category": "FUNCTIONS_BIN",
-      "transformationStep": {
-        "id": "e3c966ec-8cbc-471c-8600-b6e03a77860c",
-        "title": "",
-        "transformationType": "FUNCTIONS_BIN"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "296.7195556038856 563.0469691230919"
+      "location": "304.96410409971463 418.7019578413717"
     }
   ],
   "linkDataArray": [
@@ -1024,20 +1011,14 @@
       "topid": "IN"
     },
     {
-      "to": "5e24284a-923f-4883-926a-b862882085e5",
-      "from": "c90d1037-9e97-4930-babf-91a1f229999e",
+      "from": "28d8db1c-c305-4268-aceb-506f29a4244c",
+      "to": "295f46c2-bdbb-4583-9eae-4e2dfe250c2b",
       "frompid": "OUT",
       "topid": "IN"
     },
     {
-      "to": "edd2a50a-b294-4e7a-81d3-1e9f5b61ccd7",
       "from": "c90d1037-9e97-4930-babf-91a1f229999e",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "to": "e3c966ec-8cbc-471c-8600-b6e03a77860c",
-      "from": "c90d1037-9e97-4930-babf-91a1f229999e",
+      "to": "ee76b388-5522-44a1-8943-3da2729f02e2",
       "frompid": "OUT",
       "topid": "IN"
     }
