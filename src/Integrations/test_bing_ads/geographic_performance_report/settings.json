@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/table",
+  "columns": [
+    "AccountName",
+    "AccountId",
+    "TimePeriod",
+    "ProximityTargetLocation",
+    "LocationType",
+    "MostSpecificLocation",
+    "LocationId",
+    "_sdc_report_datetime"
+  ],
+  "import": "geographic_performance_report"
+}
