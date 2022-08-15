@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.2/orchestration/orchestration-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
@@ -7,7 +7,7 @@
     {
       "key": "9501414d-51a5-464c-a807-4727a0720005",
       "path": "src/Integrations/MySql_Integration/member",
-      "location": "-460.00000000000017 -104.28571428571433",
+      "location": "-437.1428571428573 -71.42857142857144",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true,
